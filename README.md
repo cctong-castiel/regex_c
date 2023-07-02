@@ -20,3 +20,6 @@ cmake ..
 make
 ./binary
 ```
+
+### comparison result
+![Alt text](./doc/image.png)
