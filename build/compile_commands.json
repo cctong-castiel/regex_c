@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/user/dev/Github/Github_repo/regex_c/build",
+  "command": "/usr/bin/clang++  -I/Users/user/dev/Github/Github_repo/regex_c/./include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/binary.dir/src/main.cpp.o -c /Users/user/dev/Github/Github_repo/regex_c/src/main.cpp",
+  "file": "/Users/user/dev/Github/Github_repo/regex_c/src/main.cpp"
+},
+{
+  "directory": "/Users/user/dev/Github/Github_repo/regex_c/build",
+  "command": "/usr/bin/clang++  -I/Users/user/dev/Github/Github_repo/regex_c/./include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/binary.dir/src/regex_c.cpp.o -c /Users/user/dev/Github/Github_repo/regex_c/src/regex_c.cpp",
+  "file": "/Users/user/dev/Github/Github_repo/regex_c/src/regex_c.cpp"
+}
+]
