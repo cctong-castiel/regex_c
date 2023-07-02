@@ -2,19 +2,24 @@ import ctypes
 import time
 import re
 
+class StringReplacer(ctypes.Structure):
+    _fields_ = []
+
 if __name__ == '__main__':
     
-    print("opening liblibrary.so")
+    # load libregexc.so
+    print("opening libregexc.so")
     my_so = ctypes.cdll.LoadLibrary('../lib/libregexc.so')
     
     print("loaded my_so")    
     my_so.replaceAll.argtypes = [ctypes.c_char_p, ctypes.c_char_p, ctypes.c_char_p]
-
+    
     print(f".so object: {my_so}\n")
     input = b"Hello, world! I am happy today. Hello, world! Hello, world! Save the World"
     pattern = b"world"
     replacement = b"there"
     
+    # call replaceAll function
     print("call replaceAll function for 10000 times")
     start = time.time()
     for i in range(10000):
@@ -23,6 +28,7 @@ if __name__ == '__main__':
     print(input)
     print(f"time used for c++ replaceAll function: {time.time() - start}\n")
     
+    # call python regex replace function
     print("call python regex replace function for 10000 times")
     input = "Hello, world! I am happy today. Hello, world! Hello, world! Save the World"
     pattern = "world"

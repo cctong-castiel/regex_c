@@ -14,9 +14,18 @@ int main ( void )
     char input[sizeof(originalInput)];
     strcpy(input, originalInput);
 
+    // using replaceAll function
     replaceAll(input, pattern, replacement);
 
-    std::cout << input << std::endl;
+    std::cout << "input: " << input << std::endl;
 
+    // using StringReplacer
+    char input2[sizeof(originalInput)];
+    strcpy(input2, originalInput);
+
+    StringReplacer stringReplacer = StringReplacer(pattern, replacement);
+    stringReplacer.replace(input2);
+
+    std::cout << "input2: " << input2 << std::endl;
     return 0;
 }
