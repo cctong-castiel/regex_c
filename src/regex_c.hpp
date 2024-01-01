@@ -5,7 +5,7 @@
    extern "C" {
 #endif
 
-void replaceAll ( char* str, const char* pattern, const char* replacement );
+void replaceAll ( char* str, const char* pattern, const char* replacement ){};
 
 class StringReplacer
 {

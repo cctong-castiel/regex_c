@@ -7,8 +7,12 @@
 
 int main ( void )
 {
-    char originalInput[] = "Hello, world! I am happy today. Hello, world! Hello, world! Save the World";
-    const char pattern[] = "world";
+    // char originalInput[] = "Hello, world! I am happy today. Hello, world! Hello, world! Save the World";
+    // const char pattern[] = "world";
+    // const char replacement[] = "there";
+
+    char originalInput[] = "今年COLLAR連同成員單曲總共推出12首歌";
+    const char pattern[] = "成員單曲";
     const char replacement[] = "there";
 
     char input[sizeof(originalInput)];

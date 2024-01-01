@@ -225,7 +225,7 @@ CMakeFiles/binary.dir/src/main.cpp.o: /Users/user/dev/Github/Github_repo/regex_c
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Users/user/dev/Github/Github_repo/regex_c/include/regex_c.h
+  /Users/user/dev/Github/Github_repo/regex_c/src/regex_c.hpp
 
 CMakeFiles/binary.dir/src/regex_c.cpp.o: /Users/user/dev/Github/Github_repo/regex_c/src/regex_c.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
@@ -453,6 +453,8 @@ CMakeFiles/binary.dir/src/regex_c.cpp.o: /Users/user/dev/Github/Github_repo/rege
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
   /Users/user/dev/Github/Github_repo/regex_c/include/regex_c.h
 
+
+/Users/user/dev/Github/Github_repo/regex_c/src/regex_c.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset:
 
